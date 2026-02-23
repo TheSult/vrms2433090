@@ -1,5 +1,5 @@
 package com.champsoft.vrms2433090.modules.owners.domain.model;
 
 public enum OwnerStatus {
-    ACTIVE, SUSPENDED
+    ACTIVE, INACTIVE, SUSPENDED
 }
