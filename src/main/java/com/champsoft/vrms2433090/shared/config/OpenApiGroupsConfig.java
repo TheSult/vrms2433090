@@ -25,5 +25,5 @@ public class OpenApiGroupsConfig {
     @Bean
     GroupedOpenApi registrationApi() {
         return GroupedOpenApi.builder().group("registration").pathsToMatch("/api/registrations/**").build();
-    }// TODO: OpenAPI grouping (optional)
+    }
 }
